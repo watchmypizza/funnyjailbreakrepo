@@ -24,6 +24,12 @@ update-repo:
 	@# Generate the Release file (this will go in the root of the repo)
 	@apt-ftparchive release . > $(RELEASE_FILE)
 
+	@# Add architecture info to Release file to ensure it works with Sileo
+	@echo "Architecture: arm64" >> $(RELEASE_FILE)
+	@echo "Component: main" >> $(RELEASE_FILE)
+	@echo "Origin: MyRepo" >> $(RELEASE_FILE)
+	@echo "Label: MyRepo" >> $(RELEASE_FILE)
+
 	@echo "Repository update complete!"
 
 # Clean up generated files (optional)
