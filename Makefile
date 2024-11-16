@@ -1,10 +1,10 @@
 # Variables
 DEB_DIR := debs                                    # Path to debs directory
-DIST_DIR := dists/stable/main/binary-arm64         # Distribution directory for Sileo
+DIST_DIR := dists/stable/main/binary-arm64         # Distribution directory for Sileo (architecture-specific)
 PACKAGES_FILE := dists/stable/main/binary-arm64/Packages             # Path to the Packages file
 PACKAGES_GZ := dists/stable/main/binary-arm64/Packages.gz            # Path to the compressed Packages file (gzip)
 PACKAGES_BZ2 := dists/stable/main/binary-arm64/Packages.bz2          # Path to the compressed Packages file (bzip2)
-RELEASE_FILE := dists/stable/Release              # Path to the Release file
+RELEASE_FILE := dists/stable/Release              # Path to the Release file (this goes in the stable directory)
 
 # Directories
 DEB_FILES := $(wildcard $(DEB_DIR)/*.deb)         # List of all .deb files in debs directory
