@@ -1,17 +1,17 @@
-Package: com.funnyjbrepo.batttext
-Version: 0.0.1-2+debug
+Package: com.funnyjailbreakrepo.batttext
+Version: 0.0.1-1+debug
 Architecture: iphoneos-arm64
-Maintainer: funnyjbrepo
-Installed-Size: 232
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.funnyjbrepo.batttext_0.0.1-2+debug_iphoneos-arm64.deb
-Size: 6152
-MD5sum: 3098b42d78e4a38cf0cd32250e47e559
-SHA1: ce80b9a9149b47f8ba415a54e54296ba9e8ff832
-SHA256: 23d62640d820c5bf01d98c75be050e7453be5e2f79bce8ed8c2ef69d9bb66547
+Maintainer: FunnyJBRepo
+Installed-Size: 248
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/com.funnyjailbreakrepo.batttext_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 7768
+MD5sum: cf89e9cd372abd3fae5dbaaeeff1f855
+SHA1: 3a782ae4a34810ba96ec6e3722ed434aabfbfcb3
+SHA256: 311bc1cd31fb9551c9a288719d1c80103a35f1470099744e24f3c1d443b7599f
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
-Author: funnyjbrepo
+Author: FunnyJBRepo
 Name: BattText
 
 Package: com.pantsthief.flexing
