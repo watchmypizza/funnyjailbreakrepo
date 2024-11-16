@@ -1,24 +1,24 @@
-Date: Sat, 16 Nov 2024 22:03:43 +0000
+Date: Sat, 16 Nov 2024 22:07:10 +0000
 MD5Sum:
  0f8c1ca237c6cb8351b2e9c0fdca6919             2168 Packages
  a5595e7806a776bdb57904ffa3c4a830             1118 Packages.bz2
- 12b8af4a0eeb5a9e2552f8c11b137e93              987 Packages.gz
- a9df465c4f7c52f4e68734be37aae633               38 Release
+ 7d4182cbad32abc0cb2508fcbd440e31              987 Packages.gz
+ 8f521ff3022e1162618a5c4bff01e8dd               38 Release
 SHA1:
  81b731295aa4ed98a5a338342f78c7188210ec88             2168 Packages
  c7a663a4251cf595bee4e81c6b4b3fde30eabe02             1118 Packages.bz2
- 15dbb8a5619792cd1e2c53b12db47a8d369270a1              987 Packages.gz
- c984e8646e222a83eb066d4ef344c65413e2b137               38 Release
+ 7c1dd16fa868a3599acbf03673635927f7d931a7              987 Packages.gz
+ 37a2981c9c7db8947fb99c337db2065b76b97508               38 Release
 SHA256:
  b99ecfd6c1af55767231d53df8cda7276af677594a836994039fef5bcdfe0818             2168 Packages
  5e7fa793795d7e4a163399dbe8222c6cf7f443b1f1ccfbb57d801fca6c9ba5be             1118 Packages.bz2
- 1106cba201b08b30978b13e28191aab217ea3309f3cf5e834735d35269871d43              987 Packages.gz
- 3acfbfc95f8fe43158a1b9bfd0154e2a870aeae6e9c2682dace47cc06d912def               38 Release
+ f45409c63e37aaa08a4fefe1244becc35cd08df495728cf7639cc51e2575e30b              987 Packages.gz
+ 261a9242c318cd5c3f50f3a5ace5ac110ed2c971868669623d60bd40a5f89842               38 Release
 SHA512:
  653a30993c6c47b920e3e5927c3d039025d4057b573a30af4ab159ab3ac7f06f36d75edc002313f06b2f9987de7b284636df2db8a197a4b8060a20079007b25e             2168 Packages
  ff2824c82822018f91ae17691ec888323171b9478e7979e8607aeabbba33e19d6a4ab61c568a4af41ed9bc0e4ea0f82d3091e0460e22435d7d94336aeb807bdb             1118 Packages.bz2
- d034d9e49fb1f0e0e9c4f71b88dea75a5f904029e7c52d304bb3202732afff7327e57f23f5446db035bba5db595552ac2450197d5efcdd2fac9ef17fc2e1e088              987 Packages.gz
- dc210a51ca5052a8608d57f3f32798a4e34a0c3bff1e4d868a7b718069797147ffa11b28bf3f4152c957195ff7cb471c305b385925fd0dbf1c3a24c48680f7b6               38 Release
+ 7ad65eeacae94675be377800ad341997bd43b9de93ae3b8872e6fe19e96c21e3f25eee59b926a2f4c6af74ef0d837024bc24b54619e72f36a0c6134d77df6b65              987 Packages.gz
+ ce2f55c2d39ca0d5df80c6653285af3a1045166b2fb4df7d6155870915d3edd41516483bd623635d4c8b5df6f446c9cdc0dceaa10b2b565410ef56a6474d2912               38 Release
 Architecture: arm64
 Component: main
 Origin: funnyjailbreakrepo
