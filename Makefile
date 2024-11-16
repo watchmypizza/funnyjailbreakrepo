@@ -21,15 +21,12 @@ update-repo:
 	@gzip -9c $(PACKAGES_FILE) > $(PACKAGES_GZ)
 	@bzip2 -9c $(PACKAGES_FILE) > $(PACKAGES_BZ2)
 
-	@# Generate the Release file (this will go in the root of the repo)
-	@apt-ftparchive release . > $(RELEASE_FILE)
-
-	@# Add architecture info to Release file to ensure it works with Sileo
 	@echo "Architecture: arm64" >> $(RELEASE_FILE)
 	@echo "Component: main" >> $(RELEASE_FILE)
 	@echo "Origin: funnyjailbreakrepo" >> $(RELEASE_FILE)
 	@echo "Label: funnyjbrepo" >> $(RELEASE_FILE)
-
+	@# Generate the Release file (this will go in the root of the repo)i
+	@apt-ftparchive release . > $(RELEASE_FILE)
 	@echo "Repository update complete!"
 
 # Clean up generated files (optional)
