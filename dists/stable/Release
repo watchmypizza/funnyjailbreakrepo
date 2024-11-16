@@ -1,9 +1,21 @@
-Date: Sat, 16 Nov 2024 21:30:11 +0000
+Date: Sat, 16 Nov 2024 21:33:27 +0000
 MD5Sum:
- 3071159edddd217e9076eed4073ec4b6               38 Release
+ c07cbb33923acfc7c15181188d3a0bb4               38 Release
+ 93fa3338e2ccd33dd825c87481566675             2336 main/binary-arm64/Packages
+ 67b68985ca950aaa954d8489cf401c01             1170 main/binary-arm64/Packages.bz2
+ 1e6bf394d028fb21b3d7755e173893e2             1026 main/binary-arm64/Packages.gz
 SHA1:
- 058b06383dcd2533256116c4a8dae3a27ea3eeb0               38 Release
+ 9e270b08796c26fc01087c59b03ed5bb792f10d5               38 Release
+ 700cac1489a562f9257b27b08fa00d57acc47340             2336 main/binary-arm64/Packages
+ 0099daab2d52e053499e196d6c8d39bdba1464e6             1170 main/binary-arm64/Packages.bz2
+ 0198d99748598aae0e585159b97f0adb4d22905f             1026 main/binary-arm64/Packages.gz
 SHA256:
- 9e592160ab9d657ee83700356a712f7c808e976d44eeb61ffc05256d3712eca4               38 Release
+ 7fae2aa79a2e8d43e73506343c2a899bb7428c4e00a887fa52034e493840a1fb               38 Release
+ 8de03cd8e84975f8dc420eadb0c33844f8b71ef815212fda4ad88f4f22885a6f             2336 main/binary-arm64/Packages
+ f8e4e3f50f1fad93a6c219a48e80b77ba3bbab4d1b1f6014770786ac7c3503e7             1170 main/binary-arm64/Packages.bz2
+ 68f574c3de6d568d4c1326b7acb812e1f632da994425d6a9de988ffb66e4c1de             1026 main/binary-arm64/Packages.gz
 SHA512:
- ad4012046f0746f9c47b8cb26d21e0a47952f6e21b57779f74a257556dcbae2a348fbadb2175c7756cf8ccd1fb448c221a28cb45d7aec531985d858ca28de557               38 Release
+ c7ac91f63e4d1db450fd9479fc76841417495c295231a5c79e7781bbbda617c0c7ded87dba55d24072deee989803b8ec659ba3686dbb859ffe320360e32b8b2c               38 Release
+ aa46f76bb97e41ea5897cc20d40bcdd5b195f5f7b0278566433d0b2841fd5531d58102f1d701abccbbfc3e06c524bf1623ade90fc1277654c356d6d06b7880d8             2336 main/binary-arm64/Packages
+ 83ed8b92f086377ed7f4522c81889615a56fa2cb4ac4c92fd4fc4f3494c8007e5ac6d52a8e334bb78b253ac26284e937e82f75bcec0a7a5457c5081c99098a8d             1170 main/binary-arm64/Packages.bz2
+ eda7ee952dbcc60a651cb3395e763e78a4b21eb466241480e3f7eea52be15f3915c8bc9d617d11e7233adb5b18d5a87772f3c3b5381f56906a40ccc8089e009e             1026 main/binary-arm64/Packages.gz
