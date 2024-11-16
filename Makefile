@@ -1,32 +1,46 @@
 # Variables
-DEB_DIR := debs                               # Path to debs directory
-PACKAGES_FILE := Packages                     # Path to the Packages file (root of repo)
-PACKAGES_GZ := Packages.gz                    # Path to the compressed Packages file (gzip)
-PACKAGES_BZ2 := Packages.bz2                  # Path to the compressed Packages file (bzip2)
-RELEASE_FILE := Release                       # Path to the Release file (root of repo)
-
-# Directories
-DEB_FILES := $(wildcard $(DEB_DIR)/*.deb)      # List of all .deb files in debs directory
+DEB_DIR := debs                    # Path to debs directory
+PACKAGES_FILE := Packages         # Packages file
+PACKAGES_GZ := Packages.gz        # Compressed Packages file
+PACKAGES_BZ2 := Packages.bz2      # Compressed Packages file (bz2)
+RELEASE_FILE := Release           # Release file
+ARCHITECTURE := arm64              # Architecture for the repo (adjust if needed)
+REPO_NAME := funnyjailbreakrepo   # Name of the repository
+LABEL := funnyjbrepo              # Label for the repository
+DIST_DIR := $(shell pwd)          # Distribution directory (current directory)
 
 # Default target
-all: update-repo
+all: package update-repo
 
-# Update the repository by regenerating Packages, Packages.gz, Packages.bz2, and Release files
-update-repo:
+# Package your tweak into a .deb file using your build system (e.g., Theos)
+package:
+	@echo "Packaging tweak..."
+	# Assuming you're running your build system (like Theos) here:
+	# make -C $(BUILD_DIR) package   # Adjust as needed for your setup
+
+# Update the repository: regenerate Packages, Release, etc.
+update-repo: $(PACKAGES_FILE) $(PACKAGES_GZ) $(PACKAGES_BZ2) $(RELEASE_FILE)
 	@echo "Updating repository..."
-	@# Generate the Packages file (listing all .deb files)
+	@# Ensure the DEB_DIR exists
+	@mkdir -p $(DEB_DIR)
+	@# Generate the Packages file
 	@dpkg-scanpackages $(DEB_DIR) /dev/null > $(PACKAGES_FILE)
-
-	@# Compress the Packages file with gzip and bzip2
+	@# Generate the compressed Packages files
 	@gzip -9c $(PACKAGES_FILE) > $(PACKAGES_GZ)
 	@bzip2 -9c $(PACKAGES_FILE) > $(PACKAGES_BZ2)
-
-	@echo "Architecture: arm64" >> $(RELEASE_FILE)
+	@# Generate the Release file with metadata
+	@echo "Generating Release file..."
+	@echo "Archive: stable" > $(RELEASE_FILE)
 	@echo "Component: main" >> $(RELEASE_FILE)
-	@echo "Origin: funnyjailbreakrepo" >> $(RELEASE_FILE)
-	@echo "Label: funnyjbrepo" >> $(RELEASE_FILE)
-	@# Generate the Release file (this will go in the root of the repo)i
-	@apt-ftparchive release . > $(RELEASE_FILE)
+	@echo "Origin: $(REPO_NAME)" >> $(RELEASE_FILE)
+	@echo "Label: $(LABEL)" >> $(RELEASE_FILE)
+	@echo "Architecture: $(ARCHITECTURE)" >> $(RELEASE_FILE)
+	@echo "Description: $(REPO_NAME) repository" >> $(RELEASE_FILE)
+	@echo "" >> $(RELEASE_FILE)
+	@echo "SHA256:" >> $(RELEASE_FILE)
+	@sha256sum $(PACKAGES_FILE) >> $(RELEASE_FILE)
+	@sha256sum $(PACKAGES_GZ) >> $(RELEASE_FILE)
+	@sha256sum $(PACKAGES_BZ2) >> $(RELEASE_FILE)
 	@echo "Repository update complete!"
 
 # Clean up generated files (optional)
@@ -34,5 +48,5 @@ clean:
 	@echo "Cleaning up..."
 	@rm -f $(PACKAGES_FILE) $(PACKAGES_GZ) $(PACKAGES_BZ2) $(RELEASE_FILE)
 
-.PHONY: all update-repo clean
+.PHONY: all package update-repo clean
 
