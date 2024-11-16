@@ -27,8 +27,8 @@ update-repo:
 	@# Add architecture info to Release file to ensure it works with Sileo
 	@echo "Architecture: arm64" >> $(RELEASE_FILE)
 	@echo "Component: main" >> $(RELEASE_FILE)
-	@echo "Origin: MyRepo" >> $(RELEASE_FILE)
-	@echo "Label: MyRepo" >> $(RELEASE_FILE)
+	@echo "Origin: funnyjailbreakrepo" >> $(RELEASE_FILE)
+	@echo "Label: funnyjbrepo" >> $(RELEASE_FILE)
 
 	@echo "Repository update complete!"
 
