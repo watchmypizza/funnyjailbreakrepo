@@ -1,0 +1,17 @@
+Package: com.mystery.sanjeh
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Mysteryexe
+Installed-Size: 1228
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common
+Filename: debs/com.mystery.sanjeh_2.0_iphoneos-arm64.deb
+Size: 675290
+MD5sum: 5d1c480eed502b8906e0e586daf1d35d
+SHA1: 675b2dee5a6aea81c42aeb19f3a3bb60ae285951
+SHA256: eb1f30784a91c5198e0341daa250af13dfff1eb2abe142600c806d4bf56a85b0
+Section: Tweaks
+Description: Fancy battery popups
+Author: Mysteryexe
+Icon: https://mysteryexe.xyz/repo/sanjehIcon.png
+Name: Sanjeh
+
