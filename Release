@@ -1,11 +1,8 @@
-Archive: stable
-Component: main
 Origin: funnyjailbreakrepo   
 Label: funnyjbrepo              
-Architecture: arm64              
-Description: funnyjailbreakrepo    repository
-
-SHA256:
-b99ecfd6c1af55767231d53df8cda7276af677594a836994039fef5bcdfe0818  Packages
-b8c9b19946ebef1ca32ce4a0b2d3d0703530490ea6d5136e400d11224f941974  Packages.gz
-5e7fa793795d7e4a163399dbe8222c6cf7f443b1f1ccfbb57d801fca6c9ba5be  Packages.bz2
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: MEOW
