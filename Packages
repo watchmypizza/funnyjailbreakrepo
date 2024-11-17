@@ -1,18 +1,17 @@
-Package: com.funnyjbrepo.batterytext
-Version: 1.0.0-3+debug
+Package: com.funnyjailbreakrepo.batterytext
+Version: 0.0.1-1+debug
 Architecture: iphoneos-arm64
 Maintainer: watchmypizza
 Installed-Size: 248
-Depends: preferenceloader
-Filename: debs/com.funnyjbrepo.batterytext_1.0.0-3+debug_iphoneos-arm64.deb
-Size: 6184
-MD5sum: 8aacd14b447ca1d8dff82eb07696a937
-SHA1: f0472b1aaac8a6d124b566f2caefa0b68e6a5e29
-SHA256: 817c85ac3a8c0b41f5c0450d6a7d3e4c4b79f0a85329a94b50278a937d49cbd2
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/com.funnyjailbreakrepo.batterytext_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 7040
+MD5sum: f763a7bb09cd248fc808171e3c233771
+SHA1: abf8aa4e373c0d344423031aa3edb95079653fd2
+SHA256: 46f036d3bd85815151654a379e496c916e178cd4018efd37625e0f5bcadbd69a
 Section: Tweaks
-Description: Change your battery text from 0 - 100% to whatever you like!
+Description: An awesome MobileSubstrate tweak!
 Author: watchmypizza
-Icon: https://banner2.cleanpng.com/20180622/hq/aazhmdm4j.webp
 Name: Battery Text
 
 Package: com.netskao.flexlist
