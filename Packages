@@ -1,14 +1,14 @@
 Package: com.funnyjailbreakrepo.batterytext
-Version: 0.0.1-2+debug
+Version: 0.0.1-1+debug
 Architecture: iphoneos-arm64
 Maintainer: watchmypizza
-Installed-Size: 248
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: debs/com.funnyjailbreakrepo.batterytext_0.0.1-2+debug_iphoneos-arm64.deb
-Size: 6964
-MD5sum: ba21c0b0c37cc5a87e09eb2fd23c30b8
-SHA1: 31fcdb3d2453f7544771570a9beac28ce1574e1c
-SHA256: a6c496338b7747cb2bc68f0a8f0da638d708419739ef14bd7271e2c1e8418c6b
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.funnyjailbreakrepo.batterytext_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 6224
+MD5sum: d99b0fd1fe8cd64babb1c5d7fdbd231f
+SHA1: 5e3640ef8a5dba2a54697d8ac4e2972f03cd37dd
+SHA256: 05d4c02333d21d384b13984b283ed1ee371fbc305fe1744c9295f02b8bef9115
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: watchmypizza
