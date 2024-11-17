@@ -14,6 +14,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: watchmypizza
 Name: Battery Text
 
+Package: com.funnyjbrepo.cancelhomebar
+Version: 0.0.1-6+debug
+Architecture: iphoneos-arm64
+Maintainer: watchmypizza
+Installed-Size: 232
+Depends: ws.hbang.common, preferenceloader, mobilesubstrate
+Filename: debs/com.funnyjbrepo.cancelhomebar_0.0.1-6+debug_iphoneos-arm64.deb
+Size: 4628
+MD5sum: 6841a27b6d12aa61e39f839634c719da
+SHA1: 4c617df72a8e12ab2da0f8d1ea04715de5dd68e3
+SHA256: 2eb92f84ec8d8296c6b6e7df94bd5efeba5d4e1256cee0117a2b1d33f849920e
+Section: Tweaks
+Description: Remove the default iOS homebar on iPhone X and up!
+Author: watchmypizza
+Name: CancelHomebar
+
 Package: com.netskao.flexlist
 Version: 1.4-2
 Architecture: iphoneos-arm64
