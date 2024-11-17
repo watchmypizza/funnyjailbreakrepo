@@ -30,6 +30,22 @@ Description: Remove the annoying pagedots and search button!
 Author: watchmypizza
 Name: NoPagedots
 
+Package: com.funnyjbrepo.nowifi
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm64
+Maintainer: watchmypizza
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.funnyjbrepo.nowifi_0.0.1-4+debug_iphoneos-arm64.deb
+Size: 7028
+MD5sum: ee0f359efe7bbfa4efd83440f0073158
+SHA1: 16b83bf11d813b0279a3ea7a6d732a70e8036d42
+SHA256: 90c369c79ef94ca49fce2fac5574cd57b77561f1562e286f5d07940e6c383c93
+Section: Ricing Tweaks
+Description: Remove the WiFi signal from the Status Bar!
+Author: watchmypizza
+Name: NoWiFi
+
 Package: com.netskao.flexlist
 Version: 1.4-2
 Architecture: iphoneos-arm64
