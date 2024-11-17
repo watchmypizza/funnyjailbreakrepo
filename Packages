@@ -1,18 +1,34 @@
 Package: com.funnyjbrepo.cancelhomebar
-Version: 0.0.1-6+debug
+Version: 0.0.1-7+debug
 Architecture: iphoneos-arm64
 Maintainer: watchmypizza
 Installed-Size: 232
 Depends: ws.hbang.common, preferenceloader, mobilesubstrate
-Filename: debs/com.funnyjbrepo.cancelhomebar_0.0.1-6+debug_iphoneos-arm64.deb
-Size: 4628
-MD5sum: 6841a27b6d12aa61e39f839634c719da
-SHA1: 4c617df72a8e12ab2da0f8d1ea04715de5dd68e3
-SHA256: 2eb92f84ec8d8296c6b6e7df94bd5efeba5d4e1256cee0117a2b1d33f849920e
-Section: Tweaks
+Filename: debs/com.funnyjbrepo.cancelhomebar_0.0.1-7+debug_iphoneos-arm64.deb
+Size: 4636
+MD5sum: a7dd4deb1f916468c0efc87f42c898eb
+SHA1: d8cc06aed98b0b8530fc9d0164fd6faa736af990
+SHA256: f26ce4e3adc1cee949a1abff71b4aa6dd401b4cd254747e981aed06ab4c3af8d
+Section: Ricing Tweaks
 Description: Remove the default iOS homebar on iPhone X and up!
 Author: watchmypizza
 Name: CancelHomebar
+
+Package: com.funnyjbrepo.nopgdots
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64
+Maintainer: watchmypizza
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.funnyjbrepo.nopgdots_0.0.1-8+debug_iphoneos-arm64.deb
+Size: 4892
+MD5sum: 97910748a30b763834aa5efddad178da
+SHA1: c5599ad2dd1515e56721183bd6afc4e2f214d61f
+SHA256: ef913aa823fef34227b345c76b56fd86db2d217aeac914667db6d9a03ab53c36
+Section: Ricing Tweaks
+Description: Remove the annoying pagedots and search button!
+Author: watchmypizza
+Name: NoPagedots
 
 Package: com.netskao.flexlist
 Version: 1.4-2
