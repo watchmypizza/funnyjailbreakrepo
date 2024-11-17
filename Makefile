@@ -40,6 +40,8 @@ update-repo: $(PACKAGES_FILE) $(PACKAGES_GZ) $(PACKAGES_BZ2) $(RELEASE_FILE)
 	@echo "Description: MEOW" >> $(RELEASE_FILE)
 	@echo "Repository update complete!"
 	@git add .
+	@git commit -a -m "Added tweak."
+	@git push
 
 # Clean up generated files (optional)
 clean:

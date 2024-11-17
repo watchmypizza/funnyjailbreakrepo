@@ -1,14 +1,14 @@
 Package: com.funnyjbrepo.batterytext
-Version: 1.0.0-1+debug
+Version: 1.0.0-2+debug
 Architecture: iphoneos-arm64
 Maintainer: watchmypizza
 Installed-Size: 248
 Depends: preferenceloader
-Filename: debs/com.funnyjbrepo.batterytext_1.0.0-1+debug_iphoneos-arm64.deb
-Size: 6126
-MD5sum: 4ae8dfa62ffed5704a17425ea2c85246
-SHA1: 9ba936a1d505cd08a6938cb2ea831484824084aa
-SHA256: 75f95b7c60472f2c571a23abf0a35de936e4205f697d71f4e0924ed694d1d221
+Filename: debs/com.funnyjbrepo.batterytext_1.0.0-2+debug_iphoneos-arm64.deb
+Size: 6176
+MD5sum: 9c6992c440c866e9dcb65617055a8065
+SHA1: 94e619ed34ac4a6a618c8389aeab6397ea87ca91
+SHA256: d546e9e2dc5f9c8e8aaf5b34dba2c3909b0d2f48cf81b20ec19115d50db0437a
 Section: Tweaks
 Description: Change your battery text from 0 - 100% to whatever you like!
 Author: watchmypizza
