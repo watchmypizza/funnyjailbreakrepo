@@ -1,38 +1,19 @@
-Package: com.funnyjailbreakrepo.batttext
-Version: 0.0.1-1+debug
+Package: com.netskao.flexlist
+Version: 1.4-2
 Architecture: iphoneos-arm64
-Maintainer: FunnyJBRepo
-Installed-Size: 248
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: debs/com.funnyjailbreakrepo.batttext_0.0.1-1+debug_iphoneos-arm64.deb
-Size: 7768
-MD5sum: cf89e9cd372abd3fae5dbaaeeff1f855
-SHA1: 3a782ae4a34810ba96ec6e3722ed434aabfbfcb3
-SHA256: 311bc1cd31fb9551c9a288719d1c80103a35f1470099744e24f3c1d443b7599f
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: FunnyJBRepo
-Name: BattText
-
-Package: com.pantsthief.flexing
-Version: 1.5.0+rootless
-Architecture: iphoneos-arm64
-Maintainer: Tanner Bennett <thepantsthief@me.com>
-Installed-Size: 284
-Pre-Depends: firmware (>= 8.0)
-Depends: libflex
-Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
-Filename: debs/com.pantsthief.flexing_1.5.0+rootless_iphoneos-arm64.deb
-Size: 18072
-MD5sum: 2ddd61c71ea654b14fbe2873889f386d
-SHA1: 566f60b469718433e4796c213713312d62303a68
-SHA256: 5944e4b11657199fec1c0080fa1413e94518cacb6fc50f2c2b6e0297f093ed39
-Section: Tweaks
-Description: Open FLEX anywhere!
-Author: Tanner Bennett <thepantsthief@me.com>
-Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
-Name: FLEXing
-Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+Maintainer: Nets
+Installed-Size: 5020
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.netskao.flexlist_1.4-2_iphoneos-arm64.deb
+Size: 1322600
+MD5sum: a8859632e47c167598748e9971585bea
+SHA1: e540254564e8c03de4a79cc797713bdbc62ab96d
+SHA256: 8b370827b3a7247c4acb3afaeabd7ef64f7e117250bf0aac5630505a8a408192
+Section: Netskao-Tweaks
+Description: FLEXList is a wrapper tool for FLEX Tool
+Author: Netskao
+Name: FLEXList
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.flexlist.json
 
 Package: libflex
 Version: 4.7.0~b4+rootless
