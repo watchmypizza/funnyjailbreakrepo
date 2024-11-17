@@ -1,17 +1,17 @@
 Package: com.funnyjbrepo.batterytext
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm64
-Maintainer: Funny Jailbreak Repository
-Installed-Size: 232
-Depends: mobilesubstrate (>= 0.9.5000)
+Maintainer: Funny Jailbreak Repo
+Installed-Size: 248
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
 Filename: debs/com.funnyjbrepo.batterytext_0.0.1-1+debug_iphoneos-arm64.deb
-Size: 4662
-MD5sum: 4e24ad79b3f578b2e83d6c2335c9378c
-SHA1: d6ff283378e41168d461537c606187259db00d7c
-SHA256: ddc1114795509d4daadd539285c8ad222abec445ef6d0186a40b0f167b99812e
+Size: 5876
+MD5sum: 4e49d0b66cc1d7e498a1eb844706e1ab
+SHA1: 501b44f99976eb44d23dfabddca45334f7a57a29
+SHA256: e276e4ac66d4fd7d01103857223e2c019b48568e5a1885cbe93595cb97895d37
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
-Author: Funny Jailbreak Repository
+Author: Funny Jailbreak Repo
 Name: Battery Text
 
 Package: com.netskao.flexlist
