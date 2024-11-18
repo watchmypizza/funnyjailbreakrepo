@@ -1,46 +1,62 @@
 Package: com.funnyjbrepo.cancelhomebar
-Version: 0.0.1-7+debug
-Architecture: iphoneos-arm64
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm
 Maintainer: watchmypizza
 Installed-Size: 232
 Depends: ws.hbang.common, preferenceloader, mobilesubstrate
-Filename: debs/com.funnyjbrepo.cancelhomebar_0.0.1-7+debug_iphoneos-arm64.deb
-Size: 4636
-MD5sum: a7dd4deb1f916468c0efc87f42c898eb
-SHA1: d8cc06aed98b0b8530fc9d0164fd6faa736af990
-SHA256: f26ce4e3adc1cee949a1abff71b4aa6dd401b4cd254747e981aed06ab4c3af8d
+Filename: debs/com.funnyjbrepo.cancelhomebar_0.0.1-8+debug_iphoneos-arm.deb
+Size: 4534
+MD5sum: b8a45b9c58ca099539a43643b218a4dd
+SHA1: d9d3ab916a93b2d64eb9198cc19440126ef4b0ed
+SHA256: 8b68c87e91e7f1c446d7aaf2b4c001a23058b5f5544e4084d965e0cc2d331a0a
 Section: Ricing Tweaks
 Description: Remove the default iOS homebar on iPhone X and up!
 Author: watchmypizza
 Name: CancelHomebar
 
 Package: com.funnyjbrepo.nopgdots
-Version: 0.0.1-8+debug
-Architecture: iphoneos-arm64
+Version: 0.0.1-9+debug
+Architecture: iphoneos-arm
 Maintainer: watchmypizza
 Installed-Size: 232
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.funnyjbrepo.nopgdots_0.0.1-8+debug_iphoneos-arm64.deb
-Size: 4892
-MD5sum: 97910748a30b763834aa5efddad178da
-SHA1: c5599ad2dd1515e56721183bd6afc4e2f214d61f
-SHA256: ef913aa823fef34227b345c76b56fd86db2d217aeac914667db6d9a03ab53c36
+Filename: debs/com.funnyjbrepo.nopgdots_0.0.1-9+debug_iphoneos-arm.deb
+Size: 4818
+MD5sum: 20d09ec05302fbc12f0de6762fb3ef01
+SHA1: cc3e3a11c8c1ccb55af2711b8d92dee27dbd6580
+SHA256: b3671d818579b21bd7c52a43d1e37dc869d6e8654f7426f706d8cc89dc5d1c68
 Section: Ricing Tweaks
 Description: Remove the annoying pagedots and search button!
 Author: watchmypizza
 Name: NoPagedots
 
-Package: com.funnyjbrepo.nowifi
-Version: 0.0.1-4+debug
-Architecture: iphoneos-arm64
+Package: com.funnyjbrepo.nostatusbar
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
 Maintainer: watchmypizza
 Installed-Size: 232
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.funnyjbrepo.nowifi_0.0.1-4+debug_iphoneos-arm64.deb
-Size: 7028
-MD5sum: ee0f359efe7bbfa4efd83440f0073158
-SHA1: 16b83bf11d813b0279a3ea7a6d732a70e8036d42
-SHA256: 90c369c79ef94ca49fce2fac5574cd57b77561f1562e286f5d07940e6c383c93
+Filename: debs/com.funnyjbrepo.nostatusbar_0.0.1-5+debug_iphoneos-arm.deb
+Size: 4546
+MD5sum: 0a7aab585985d3cdab1e68b3b2efdcc0
+SHA1: 724a8a802b918198da387532c3d01747565f4294
+SHA256: cc98efecc292d391990848b666581cdf03fc5d405e019bc8314867058cb6f12b
+Section: Ricing Tweaks
+Description: Remove the statusbar!
+Author: watchmypizza
+Name: NoStatusbar
+
+Package: com.funnyjbrepo.nowifi
+Version: 0.0.1-5+debug
+Architecture: iphoneos-arm
+Maintainer: watchmypizza
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.funnyjbrepo.nowifi_0.0.1-5+debug_iphoneos-arm.deb
+Size: 6922
+MD5sum: 162fe69451378a4bd99bb00828cc1f45
+SHA1: f61b4e5aeb08c568340399b75a3995dce68404da
+SHA256: 537de56b34fe60ab7b4faa01dfc71387cf42de696258c89d9b375a733d8bcac4
 Section: Ricing Tweaks
 Description: Remove the WiFi signal from the Status Bar!
 Author: watchmypizza
