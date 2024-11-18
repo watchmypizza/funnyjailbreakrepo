@@ -1,3 +1,19 @@
+Package: com.82flex.noredirect
+Version: 1.10
+Architecture: iphoneos-arm64
+Maintainer: watchmypizza
+Installed-Size: 488
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/com.82flex.noredirect_1.10_iphoneos-arm64.deb
+Size: 68566
+MD5sum: 8c96aa59a37f9846693c70ccd28a6f80
+SHA1: b775acd63600b1d8d33245678cf15ae15145414f
+SHA256: e9ffedf99df9418bf5135834ee33ab25c324dfb586ef79c37f35740bf48b811b
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps. Compiled by watchmypizza
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect
+
 Package: com.funnyjbrepo.cancelhomebar
 Version: 0.0.1-7+debug
 Architecture: iphoneos-arm64
