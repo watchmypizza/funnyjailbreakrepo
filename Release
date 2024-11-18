@@ -1,8 +1,8 @@
-Origin: PizzasRepo
-Label: PizzasRepo              
+Origin: funnyjailbreakrepo   
+Label: funnyjbrepo              
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64, iphoneos-arm
+Architectures: iphoneos-arm64
 Components: main
 Description: MEOW
