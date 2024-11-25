@@ -1,15 +1,15 @@
 Package: com.funnyjbrepo.batterytext
-Version: 0.0.1-39+debug
+Version: 0.0.1-40+debug
 Architecture: iphoneos-arm64
 Maintainer: watchmypizza
 Installed-Size: 15828
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.funnyjbrepo.batterytext_0.0.1-39+debug_iphoneos-arm64.deb
-Size: 2730320
-MD5sum: 518bbee62ba31dedfbbcffaf1865a22a
-SHA1: 0b8bcdaeb31e7ef627e4c11eff5f7dc5fd543711
-SHA256: 532b32f60cca8513dfb4edaeef5b985eaa08031681475a136886bdf1ee9a2520
-Section: RIcing Tweaks
+Filename: debs/com.funnyjbrepo.batterytext_0.0.1-40+debug_iphoneos-arm64.deb
+Size: 2728760
+MD5sum: 3c15b8e127799aa3d466fca76c570ec0
+SHA1: 3a555483b78c488fbcda50b67113ff7973767da1
+SHA256: a0b17739f9990d50e8ec08dc45749a2750ee834c68db94af9bde49a7638b0a27
+Section: Ricing Tweaks
 Description: Change your battery text from whatever % to a custom text!
 Author: watchmypizza
 Name: BatteryText
